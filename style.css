@@ -1,0 +1,679 @@
+*{
+    font-family: "Lora";
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    color: #DE3163;
+    max-width: 1440px;
+}
+
+h1{
+    font-size: 48px;
+}
+
+.header{
+    background-image: url("./img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    width: 100%;
+    height: 676px;
+    display: flex;
+    gap: 20%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header__nav{
+    width: 80%;
+    display: flex;
+    background-color: #E195AB;
+    align-items: center;
+    height: 10%;
+    border-radius: 10px;
+}
+
+.header__nav-img{
+    border-radius: 10px;
+    height: 100%;
+    width: 145px;
+    text-align: center;
+    background-color: rgba(255, 237, 250, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__nav-list{
+    gap: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 0;
+}
+
+.header__nav-item{
+    background-color: rgba(255, 237, 250, 0.5);
+    padding: 2px 15px 2px 15px;
+}
+
+.header__content{
+    height: 80%;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.header__content-title{
+    width: 80%;
+    color: #CCDF92;
+    -webkit-text-stroke: 0.8px #DE3163;
+    font-family: "Montserrat";
+}
+
+.header__content-description{
+    width: 60%;
+    color: #CCDF92;
+    -webkit-text-stroke: 0.8px #DE3163;
+    font-family: "Poppins";
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.header__content-button{
+    font-family: "Montserrat";
+    border: none;
+    border-radius: 15px;
+    padding: 15px 20px 15px 20px;
+    background-color: #CCDF92;
+}
+
+.review{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 237, 250, 0.8);
+}
+
+.about{
+    height: 504px;
+    background-color: #E195AB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__container{
+    height: 60%;
+    width: 80%;
+    display: flex;
+    gap: 1vw;
+}
+
+.about__content-text{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.about__content-video{
+    width: 50%;
+    background-color:rgba(255, 237, 250, 0.68);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__title{
+    background-color:rgba(255, 237, 250, 0.68);
+    width: 80%;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 56px;
+    font-family: "Italianno";
+}
+
+.about__description{
+    background-color:rgba(255, 237, 250, 0.68);
+    width: 100%;
+    padding: 18px 22px 18px 22px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: "Poppins";
+}
+
+.koleksi{
+    background-color: rgba(204, 223, 146, 0.8);
+    height: 1112px;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.koleksi__title{
+    width: 80%;
+    font-family: "Mea Culpa";
+    font-size: 100px;
+    text-align: center;
+}
+
+.koleksi__container{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.koleksi__container-content{
+    background-color: #FFEDFA;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40%;
+    border-radius: 20px;
+}
+
+.koleksi__first-content {
+    border-radius: 20px;
+    background-color: rgba(225, 149, 171, 0.5);
+    width: 27%;
+    padding: 3% 2% 3% 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.koleksi__second-content {
+    border-radius: 20px;
+    background-color: rgba(222, 49, 99, 0.58);
+    width: 27%;
+    padding: 3% 2% 3% 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.koleksi__second-content p {
+    color: #FFEDFA;
+}
+
+.koleksi__second-content span {
+    color: #FFEDFA;
+}
+
+.koleksi__second-content li {
+    text-wrap: wrap;
+    margin-left: 15px;
+    color: #FFEDFA;
+}
+
+.koleksi__first-content li {
+    text-wrap: wrap;
+    margin-left: 15px;
+}
+
+.koleksi__content-title{
+    width: fit-content;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.testi{
+    background-color: rgba(222, 49, 99, 0.55);
+    height: 479px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.testi__title{
+    width: 80%;
+    color: #CCDF92;
+    -webkit-text-stroke: 0.8px #DE3163;
+    font-weight: 800;
+    font-family: "Poppins";
+}
+
+.testi__container-content{
+    width: 80%;
+    background-color: rgba(222, 49, 99, 0.7);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.testi__first-content{
+    width: 20%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: #CCDF92;
+    border-radius: 20px;
+}
+
+.testi__second-content{
+    width: 20%;
+    flex-direction: column;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 20px;
+    background-color: #FFEDFA;
+}
+
+.faq{
+    background-color: #DE3163;
+    height: 627px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+.faq__title{
+    font-weight: 600;
+    text-align: center;
+    color: #FFEDFA;
+}
+
+.faq__list{
+    width: 70%;
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    color: white;
+    padding-bottom: 0%;
+}
+
+.faq__question{
+    color: #FFEDFA;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.faq__answer{
+    color: #FFEDFA;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.pesan{
+    background-color: rgba(222, 49, 99, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 295px;
+}
+
+.pesan__container{
+    padding: 30px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+}
+
+.pesan__content-text{
+    width: 60%;
+    text-wrap: wrap;
+}
+
+.pesan__content-heading{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.pesan__content-description{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.pesan__button{
+    display: flex;
+    width: 222px;
+    font-family: "Poppins";
+    font-weight: 400;
+    height: 78px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #CCDF92;
+    border-radius: 15px;
+}
+
+.footer{
+    width: 100%;
+    height: 350px;
+    background-color: rgba(204, 223, 146, 0.95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__content {
+    border-radius: 25px;
+    width: 80%;
+    background-color: rgba(222, 49, 99, 0.75);
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__content-item{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__content-title{
+    color: #FFEDFA;
+    font-size: 32px;
+}
+
+.footer__content-description{
+    font-size: 16px;
+    color: #FFEDFA;
+}
+
+.footer__contact-info{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+}
+.footer__contact-detail{
+    align-items: center;
+    display: flex;
+    color: #FFEDFA;
+}
+
+.footer__legal-detail{
+    color: #FFEDFA;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+    * {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .header {
+        height: auto;
+        min-height: 500px;
+        gap: 10%;
+    }
+
+    .header__nav {
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .header__nav-img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .header__nav-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 0 10px;
+    }
+
+    .header__content-title {
+        width: 90%;
+    }
+
+    .header__content-description {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .about {
+        height: auto;
+        padding: 5% 0;
+    }
+
+    .about__container {
+        height: auto;
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .about__content-text {
+        width: 100%;
+        padding-top: 12;
+        align-items: center;
+    }
+
+    .about__content-video {
+        width: 100%;
+    }
+
+    .about__title {
+        font-size: 40px;
+        width: 95%;
+    }
+
+    .koleksi {
+        height: auto;
+        padding: 5% 0 10% 0;
+    }
+
+    .koleksi__title {
+        font-size: 60px;
+    }
+
+    .koleksi__container-content {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+
+    .koleksi__first-content, .koleksi__second-content {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .testi {
+        height: auto;
+        padding: 5% 0;
+    }
+
+    .testi__container-content {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .testi__first-content, .testi__second-content {
+        width: 45%;
+    }
+
+    .faq {
+        height: auto;
+        padding: 5% 0;
+    }
+
+    .faq__question, .faq__answer {
+        font-size: 18px;
+    }
+
+    .faq__list {
+        width: 90%;
+    }
+
+    .pesan {
+        height: auto;
+        padding: 3% 0;
+    }
+
+    .pesan__container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .pesan__content-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .pesan__content-heading {
+        font-size: 28px;
+    }
+
+    .pesan__button {
+        width: 180px;
+        height: 60px;
+    }
+
+    .footer {
+        height: auto;
+        padding: 5% 0;
+    }
+
+    .footer__content {
+        flex-direction: column;
+    }
+
+    .footer__content-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer__content-title {
+        font-size: 24px;
+    }
+
+    .footer__contact-detail {
+        display: flex;
+        align-items: center;
+    }
+    
+    .footer__contact-detail i {
+        margin-right: 8px;
+    }
+    
+    .footer__contact-detail p {
+        margin: 0;
+    } 
+}
+
+/* Mobile */
+@media screen and (max-width: 425px) {
+    * {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .header {
+        min-height: 400px;
+    }
+
+    .header__nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__nav-item {
+        width: 80%;
+        text-align: center;
+    }
+
+    .header__content-description {
+        width: 95%;
+        font-size: 16px;
+    }
+
+    .header__content-button {
+        padding: 10px 15px;
+    }
+
+    .about__title {
+        font-size: 32px;
+    }
+
+    .koleksi__title {
+        font-size: 48px;
+    }
+
+    .koleksi__first-content, .koleksi__second-content {
+        width: 95%;
+        padding: 5%;
+    }
+
+    .testi__container-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testi__first-content, .testi__second-content {
+        width: 95%;
+        margin-bottom: 15px;
+    }
+
+    .faq__question, .faq__answer {
+        font-size: 16px;
+    }
+
+    .pesan__content-heading {
+        font-size: 24px;
+    }
+
+    .pesan__content-description {
+        font-size: 16px;
+    }
+
+    .pesan__button {
+        width: 160px;
+        height: 50px;
+    }
+
+    .footer__content-description,
+    .footer__legal-detail {
+        font-size: 14px;
+    }
+}
